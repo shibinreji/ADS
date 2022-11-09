@@ -6,11 +6,11 @@ void main()
  scanf("%d",&num);
 if (num == 0)
   {
-   printf("Even\n");
+   printf("Zero\n");
   }
 else if (num % 2 == 0)
 {
- printf("Zero\n");
+ printf("Even\n");
 }
 else
 {
