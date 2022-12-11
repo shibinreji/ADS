@@ -79,11 +79,11 @@ if(top>=0)
 printf("\n the elements in stack \n");
 for(i=top;i>=0;i--)
 printf("\n %d",stack[i]);
-printf("\n press next choice");
+printf("\n Enter next choice");
 }
 else
 {
-printf("\n the stack is empty");
+printf("\n Thee stack is empty");
 }
 }
 
