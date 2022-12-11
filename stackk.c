@@ -83,7 +83,7 @@ printf("\n Enter next choice");
 }
 else
 {
-printf("\n Thee stack is empty");
+printf("\n The stack is empty");
 }
 }
 
