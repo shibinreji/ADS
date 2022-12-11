@@ -6,14 +6,14 @@ void display();
 int main()
 {
 top=-1;
-printf("enter the size of the stack[max=100]:");
+printf("Enter the size of the stack[MAX=100]:");
 scanf("%d",&n);
-printf("STACK OPERATION USING ARRAY");
-printf("\n----------------------------:");
-printf("\n\t 1.push \n\t 2.pop \n\t 3.display \n\t 4.exit:");
+printf("\n\t STACK OPERATION USING ARRAY");
+printf("\n\t-----------------------------");
+printf("\n\t 1.PUSH \n\t 2.POP \n\t 3.DISPLAY \n\t 4.EXIT");
 do
 {
-   printf("\n enter the choice:");
+   printf("\n Enter the choice:");
    scanf("%d",&choice);
     switch(choice)
      {
@@ -34,7 +34,7 @@ do
         }
         case 4:
         {
-        printf("\n\t exit");
+        printf("\n\t EXIT POINT");
         break;
         }
         default:
